@@ -39,9 +39,10 @@
     >Instellingen</q-btn>
   </div>
 
-    <q-footer elevated class="bg-grey-8 text-white">
+    <q-footer elevated class="footer">
       <q-toolbar>
-          <q-btn class="homeButton">
+          <q-btn class="homeButton"
+             @click="$router.replace('/')">
            <span class="material-symbols-outlined">Home
 </span></q-btn>
       </q-toolbar>
