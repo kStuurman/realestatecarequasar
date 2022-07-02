@@ -38,6 +38,14 @@
        @click="$router.replace('/InstellingenPage')"
     >Instellingen</q-btn>
   </div>
+
+    <q-footer elevated class="bg-grey-8 text-white">
+      <q-toolbar>
+          <q-btn class="homeButton">
+           <span class="material-symbols-outlined">Home
+</span></q-btn>
+      </q-toolbar>
+    </q-footer>
 </div>
   </q-page>
 </template>
