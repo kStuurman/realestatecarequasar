@@ -4,9 +4,10 @@
     <q-header elevated class="bg-primary text-white">
       <q-toolbar>
         <q-toolbar-title>
+          <a href="/">
           <q-avatar>
-            <img src="~assets/logogreen.png">
-          </q-avatar>
+          <img src="~assets/logogreen.png">
+          </q-avatar></a>
           Real Estate Care
         </q-toolbar-title>
       </q-toolbar>
